@@ -1,1 +1,28 @@
-# sistemrekomendasi-karier-knn
+# 🎓 Sistem Rekomendasi Karier Berdasarkan Minat dan Keahlian
+
+## 📌 Latar Belakang & Deskripsi Proyek
+Proyek ini adalah aplikasi web interaktif yang dikembangkan sebagai bagian dari penelitian skripsi program studi Teknik Informatika S1. Sistem ini dirancang untuk memecahkan kebingungan yang sering dialami mahasiswa atau pencari kerja dalam menentukan spesialisasi di bidang IT. 
+
+Dengan memanfaatkan algoritma **Machine Learning K-Nearest Neighbor (KNN)**, aplikasi ini mengevaluasi skor minat dan keahlian pengguna pada berbagai bidang IT untuk memberikan rekomendasi jalur karier yang paling optimal dan berbasis data.
+
+## 🚀 Fitur Utama
+- **Prediksi Karier Cerdas:** Pengguna dapat menginput metrik keahlian mereka (Pemrograman, Analisis Data, Jaringan, Desain, dan Manajemen) pada skala 1-5. Model akan langsung mengklasifikasikan dan merekomendasikan peran IT yang paling sesuai.
+- **Visualisasi & Eksplorasi Data:** Dilengkapi dengan dasbor analitik interaktif untuk melihat sebaran data pelatihan, pola hubungan antar *skill*, dan distribusi target karier secara *real-time*.
+- **Informasi Karier Terperinci:** Menyediakan basis data informasi mengenai kebutuhan keahlian spesifik untuk setiap profesi IT (misal: *tools* dan bahasa pemrograman yang wajib dikuasai).
+
+## 🛠️ Teknologi & Tools
+Proyek ini dibangun menggunakan *stack* teknologi analisis data dan *machine learning* modern:
+- **Bahasa Pemrograman:** Python
+- **Machine Learning:** Scikit-Learn (K-Nearest Neighbor)
+- **Web Framework:** Streamlit
+- **Pengolahan Data:** Pandas, NumPy
+- **Visualisasi Data:** Plotly Express
+
+## 📊 Dataset & Metodologi
+Model klasifikasi dalam sistem ini dilatih secara kuantitatif menggunakan dataset yang telah dibersihkan, berisi **297 sampel data**. Target klasifikasi mencakup berbagai peran profesional di industri teknologi, antara lain:
+- Software Engineer
+- Data Scientist / Data Analyst
+- UI/UX Designer
+- IT Project Manager
+- Database Administrator
+- Network Engineer
