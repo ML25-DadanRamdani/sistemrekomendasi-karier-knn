@@ -28,7 +28,18 @@ Model klasifikasi dalam sistem ini dilatih secara kuantitatif menggunakan datase
 - Network Engineer
 
 ##💻 Cara Menjalankan Aplikasi
-
+1. Instal Dependencies (Library)
+Sistem ini memerlukan beberapa library utama. Buka terminal/command prompt, lalu instal semua kebutuhan dengan menjalankan perintah berikut:
+```bash
+pip install streamlit pandas scikit-learn plotly numpy
+```
+2. Jalankan Aplikasi
+Setelah semua library berhasil terinstal, pastikan Anda berada di direktori proyek, lalu jalankan server lokal Streamlit dengan mengeksekusi perintah berikut di terminal:
+```bash
+streamlit run app.py
+```
+3. Akses Antarmuka Web
+Jika aplikasi berhasil berjalan, terminal akan menampilkan tautan lokal (biasanya berjalan di port default: http://localhost:8501). Buka tautan tersebut di dalam browser Anda untuk mulai menggunakan sistem rekomendasi karier.
 
 ---
 
