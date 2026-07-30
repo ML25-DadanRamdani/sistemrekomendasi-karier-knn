@@ -21,8 +21,24 @@ Proyek ini dibangun menggunakan *stack* teknologi analisis data dan *machine lea
 ## 📊 Dataset & Metodologi
 Model klasifikasi dalam sistem ini dilatih secara kuantitatif menggunakan dataset yang telah dibersihkan, berisi **297 sampel data**. Target klasifikasi mencakup berbagai peran profesional di industri teknologi, antara lain:
 - Software Engineer
-- Data Scientist / Data Analyst
+- Data Analyst
 - UI/UX Designer
 - IT Project Manager
 - Database Administrator
 - Network Engineer
+
+##💻 Cara Menjalankan Aplikasi
+
+
+---
+
+## 📂 Struktur Folder & File
+Berikut adalah susunan direktori dan file utama yang ada di dalam proyek ini:
+
+```text
+├── app.py                 # File utama aplikasi web (antarmuka Streamlit)
+├── dataset_bersih.csv     # Dataset yang digunakan untuk analisis dan visualisasi
+├── model_knn.pkl          # Model Machine Learning (KNN) yang sudah dilatih
+├── scaler.pkl             # Model scaler untuk normalisasi/standarisasi input pengguna
+├── requirements.txt       # (Opsional) Daftar dependensi library
+└── README.md              # Dokumentasi proyek (file ini)
